@@ -34,3 +34,6 @@ Code from others to extract data:
 - bright_cat_pf.fits
 - hdf5_to_tables.ipynb
 - imstack.py
+
+- Other:
+Powerpoint presentation of project also may be uploaded
