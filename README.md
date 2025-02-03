@@ -8,7 +8,7 @@ Supervisor: John Morgan, Space and Astronomy team (john.morgan@csiro.au)
 Feburary 2025
 
 
-This code analyses MWA GLEAM Survey radio source timeseries observations by calculating true skew values with a Signal to Noise Ratios (SNR) using linear interpolation for each observation (there are multiple observations per radio source). It produces multiple plots of each radio source to visualize the relationship between measured skew, true skew, SNR, elongation and modulation - with error bars. These plots also have lognormal and rice^2 shape models plotted for comparison against an Ordinary Least Squares Line of Best Fit and what I am calling Barlow's Weighted Non-linear Squares Line of Best fit (which takes into account variability of each observation and asymmetric errors). Each Radio Source has a Barlow's Reduced Chi Square value (using the BWNLS model). 
+This code analyses MWA IPS GLEAM Survey radio source timeseries observations by calculating true skew values with a Signal to Noise Ratios (SNR) using linear interpolation for each observation (there are multiple observations per radio source). It produces multiple plots of each radio source to visualize the relationship between measured skew, true skew, SNR, elongation and modulation - with error bars. These plots also have lognormal and rice^2 shape models plotted for comparison against an Ordinary Least Squares Line of Best Fit and what I am calling Barlow's Weighted Non-linear Squares Line of Best fit (which takes into account variability of each observation and asymmetric errors). Each Radio Source has a Barlow's Reduced Chi Square value (using the BWNLS model). 
 The code provides two exportable tables (Source_Table and Obs_Table) for further analysis.
 
 --------------------------------------------------------------------
@@ -23,7 +23,7 @@ Saf's docs:
 
 
 Data: 
-- ips/timeseries_full.hdf5 <- a large set of timeseries from the GLEAM survey (both radio sources and offsources)
+- ips/timeseries_full.hdf5 <- a large set of timeseries from the IPS GLEAM survey (both radio sources and offsources)
         (note: timeseries_full.hdf5 is 105MB and therefore not on the repository... see John Morgan for data)
 - ssh_to_local.ipynb <-  how I downloaded the large set of timeseries (on and offsource) from the MWA Image Cube. 
 
